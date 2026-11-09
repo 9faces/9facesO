@@ -1,0 +1,11 @@
+# --- Core Lexing & Parsing ---
+luau-tokenizer>=1.1.1
+luaparser>=4.2.0
+antlr4-python3-runtime>=4.13.2
+
+# --- Build & Anti-Tamper ---
+pyinstaller>=6.22.1
+
+# --- Optional: Runtime utilities ---
+pycryptodome>=3.20.0
+requests>=2.31.0
