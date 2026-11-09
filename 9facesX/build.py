@@ -3,7 +3,7 @@ import hashlib
 import os
 
 def build():
-    print("[*] Building 9facesX Executable...")
+    print("[*] Building 9faces Executable...")
     PyInstaller.__main__.run([
         'main.py',
         '--onefile',
@@ -20,7 +20,7 @@ def build():
 
     print("\n" + "="*50)
     print(f"[!] Build Complete!")
-    print(f"[!] Copy this hash into 9facesX/integrity.py")
+    print(f"[!] Copy this hash into 9facesM/integrity.py")
     print(f"[!] HASH: {exe_hash}")
     print("="*50 + "\n")
 
