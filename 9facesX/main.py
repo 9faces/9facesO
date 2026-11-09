@@ -1,9 +1,9 @@
 import argparse
 import sys
-from 9facesX.lexer import LuauLexer
-from 9facesX.parser import LuauParser
-from 9facesX.transformer import ASTTransformer
-from 9facesX.integrity import check_integrity
+from 9facesM.lexer import LuauLexer
+from 9facesM.parser import LuauParser
+from 9facesM.transformer import ASTTransformer
+from 9facesM.integrity import check_integrity
 
 HEADER = """-- [[ 9faces v1.5.4 ]] --
 -- [[ NO SKID~ :0 ]] --
