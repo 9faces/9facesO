@@ -1,0 +1,13 @@
+﻿__pycache__/
+*.pyc
+*.pyo
+dist/
+build/
+*.spec
+*.log
+_9facesM/test.luau
+_9facesM/output.luau
+9facesX/test.luau
+9facesX/output.luau
+*.luau
+!examples/*.luau

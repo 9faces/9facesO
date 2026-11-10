@@ -1,4 +1,4 @@
-import PyInstaller.__main__
+﻿import PyInstaller.__main__
 import hashlib
 import os
 
@@ -20,7 +20,7 @@ def build():
 
     print("\n" + "="*50)
     print(f"[!] Build Complete!")
-    print(f"[!] Copy this hash into 9facesM/integrity.py")
+    print(f"[!] Copy this hash into _9facesM/integrity.py")
     print(f"[!] HASH: {exe_hash}")
     print("="*50 + "\n")
 
